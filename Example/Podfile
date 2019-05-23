@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JQFisher_Example' do
+  pod 'JQFisher', :path => '../'
+
+  target 'JQFisher_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
