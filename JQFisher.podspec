@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JQFisher'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of JQFisher.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/sjq2150@gmail.com/JQFisher'
+  s.homepage         = 'https://github.com/SongJiaqiang/JQFisher'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sjq2150@gmail.com' => 'sjq2150@gmail.com' }
-  s.source           = { :git => 'https://github.com/sjq2150@gmail.com/JQFisher.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SongJiaqiang/JQFisher.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
