@@ -1,0 +1,22 @@
+{
+  "name": "JQFisher",
+  "version": "0.1.0",
+  "summary": "A short description of JQFisher.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sjq2150@gmail.com/JQFisher",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sjq2150@gmail.com": "sjq2150@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sjq2150@gmail.com/JQFisher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JQFisher/Classes/**/*"
+}

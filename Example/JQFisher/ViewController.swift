@@ -7,17 +7,24 @@
 //
 
 import UIKit
+import JQFisher
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let rect = CGRect(w: 200, h: 200)
+        let button = UIButton(frame: rect)
+        view.addSubview(button)
+        button.backgroundColor = UIColor(hex: 0x1111ff)
+        button.setTitle("JQFisher")
+        button.addTarget(self, action: #selector(buttonPressed(_:)))
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @objc func buttonPressed(_ button: UIButton) {
+        print("press button")
     }
 
 }

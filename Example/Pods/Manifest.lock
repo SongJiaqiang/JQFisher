@@ -1,0 +1,16 @@
+PODS:
+  - JQFisher (0.1.0)
+
+DEPENDENCIES:
+  - JQFisher (from `../`)
+
+EXTERNAL SOURCES:
+  JQFisher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JQFisher: a0f6dddf92a2fa748b9ea8a322f0e2e80922bad6
+
+PODFILE CHECKSUM: d20f30c90e0857225c62fa00dc46f18bc1789148
+
+COCOAPODS: 1.8.0.beta.1

@@ -1,0 +1,6 @@
+framework module JQFisher {
+  umbrella header "JQFisher-umbrella.h"
+
+  export *
+  module * { export * }
+}
