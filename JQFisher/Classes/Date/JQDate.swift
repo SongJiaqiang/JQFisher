@@ -670,3 +670,10 @@ public extension Date {
     }
     
 }
+
+public extension Date {
+    func timestampString() -> String {
+        return String(format: "%.0f", self.timeIntervalSince1970)
+    }
+}
+
