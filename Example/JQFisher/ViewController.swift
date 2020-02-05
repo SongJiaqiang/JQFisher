@@ -25,6 +25,13 @@ class ViewController: UIViewController {
 
     @objc func buttonPressed(_ button: UIButton) {
         print("press button")
+        
+        present(PageAViewController())
+//        if #available(iOS 13.0, *) {
+//            present(PageBViewController(), presentStyle: .automatic)
+//        } else {
+//            // Fallback on earlier versions
+//        }
     }
 
 }

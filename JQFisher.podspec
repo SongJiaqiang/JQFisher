@@ -6,9 +6,21 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+# 更新版本步骤
+# step1：验证代码没有错误
+# step2：更新podspec文件版本号
+# step3：提交变更。
+# > git commit
+# step4：打tag并推送到远端仓库
+# > git tag -m 'update message' '1.0.1'
+# > git push --tag
+# step5：提交podspec到Specs仓库
+# > pod repo push JQSpecs JQFisher.podspec
+#
+
 Pod::Spec.new do |s|
   s.name             = 'JQFisher'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of JQFisher.'
 
 # This description is used to generate tags and improve search results.

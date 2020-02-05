@@ -1,5 +1,5 @@
 PODS:
-  - JQFisher (0.1.0)
+  - JQFisher (0.1.1)
 
 DEPENDENCIES:
   - JQFisher (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JQFisher: a0f6dddf92a2fa748b9ea8a322f0e2e80922bad6
+  JQFisher: f2b563b3e3fb5894fb8d422ea59489e702334e5d
 
 PODFILE CHECKSUM: d20f30c90e0857225c62fa00dc46f18bc1789148
 
-COCOAPODS: 1.8.0.beta.1
+COCOAPODS: 1.7.0
